@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1444B7181F1595005526E9 /* MapPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1444B6181F1595005526E9 /* MapPinAnnotation.m */; };
+		0A1444C2181F1E21005526E9 /* CircleOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1444BF181F1E21005526E9 /* CircleOverlay.m */; };
+		0A1444C3181F1E21005526E9 /* PointOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1444C1181F1E21005526E9 /* PointOverlay.m */; };
 		0A665C4C181F0C9700534E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A665C4B181F0C9700534E4C /* Foundation.framework */; };
 		0A665C4E181F0C9700534E4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A665C4D181F0C9700534E4C /* CoreGraphics.framework */; };
 		0A665C50181F0C9700534E4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A665C4F181F0C9700534E4C /* UIKit.framework */; };
@@ -14,13 +17,14 @@
 		0A665C58181F0C9700534E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A665C57181F0C9700534E4C /* main.m */; };
 		0A665C5C181F0C9700534E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A665C5B181F0C9700534E4C /* AppDelegate.m */; };
 		0A665C5F181F0C9700534E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A665C5D181F0C9700534E4C /* Main.storyboard */; };
-		0A665C62181F0C9700534E4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A665C61181F0C9700534E4C /* ViewController.m */; };
+		0A665C62181F0C9700534E4C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A665C61181F0C9700534E4C /* MapViewController.m */; };
 		0A665C64181F0C9700534E4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A665C63181F0C9700534E4C /* Images.xcassets */; };
 		0A665C6B181F0C9700534E4C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A665C6A181F0C9700534E4C /* XCTest.framework */; };
 		0A665C6C181F0C9700534E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A665C4B181F0C9700534E4C /* Foundation.framework */; };
 		0A665C6D181F0C9700534E4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A665C4F181F0C9700534E4C /* UIKit.framework */; };
 		0A665C75181F0C9700534E4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A665C73181F0C9700534E4C /* InfoPlist.strings */; };
 		0A665C77181F0C9700534E4C /* TestLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A665C76181F0C9700534E4C /* TestLocationsTests.m */; };
+		0A665C83181F0D8A00534E4C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A665C82181F0D8A00534E4C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1444B5181F1595005526E9 /* MapPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapPinAnnotation.h; path = TestLocations/MapPinAnnotation.h; sourceTree = "<group>"; };
+		0A1444B6181F1595005526E9 /* MapPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapPinAnnotation.m; path = TestLocations/MapPinAnnotation.m; sourceTree = "<group>"; };
+		0A1444BE181F1E21005526E9 /* CircleOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleOverlay.h; sourceTree = "<group>"; };
+		0A1444BF181F1E21005526E9 /* CircleOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleOverlay.m; sourceTree = "<group>"; };
+		0A1444C0181F1E21005526E9 /* PointOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOverlay.h; sourceTree = "<group>"; };
+		0A1444C1181F1E21005526E9 /* PointOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOverlay.m; sourceTree = "<group>"; };
 		0A665C48181F0C9700534E4C /* TestLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A665C4B181F0C9700534E4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0A665C4D181F0C9700534E4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +55,15 @@
 		0A665C5A181F0C9700534E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A665C5B181F0C9700534E4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0A665C5E181F0C9700534E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A665C60181F0C9700534E4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A665C61181F0C9700534E4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A665C60181F0C9700534E4C /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		0A665C61181F0C9700534E4C /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		0A665C63181F0C9700534E4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0A665C69181F0C9700534E4C /* TestLocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLocationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A665C6A181F0C9700534E4C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0A665C72181F0C9700534E4C /* TestLocationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestLocationsTests-Info.plist"; sourceTree = "<group>"; };
 		0A665C74181F0C9700534E4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A665C76181F0C9700534E4C /* TestLocationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLocationsTests.m; sourceTree = "<group>"; };
+		0A665C82181F0D8A00534E4C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A665C83181F0D8A00534E4C /* MapKit.framework in Frameworks */,
 				0A665C4E181F0C9700534E4C /* CoreGraphics.framework in Frameworks */,
 				0A665C50181F0C9700534E4C /* UIKit.framework in Frameworks */,
 				0A665C4C181F0C9700534E4C /* Foundation.framework in Frameworks */,
@@ -82,6 +94,8 @@
 		0A665C3F181F0C9700534E4C = {
 			isa = PBXGroup;
 			children = (
+				0A1444B5181F1595005526E9 /* MapPinAnnotation.h */,
+				0A1444B6181F1595005526E9 /* MapPinAnnotation.m */,
 				0A665C51181F0C9700534E4C /* TestLocations */,
 				0A665C70181F0C9700534E4C /* TestLocationsTests */,
 				0A665C4A181F0C9700534E4C /* Frameworks */,
@@ -101,6 +115,7 @@
 		0A665C4A181F0C9700534E4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A665C82181F0D8A00534E4C /* MapKit.framework */,
 				0A665C4B181F0C9700534E4C /* Foundation.framework */,
 				0A665C4D181F0C9700534E4C /* CoreGraphics.framework */,
 				0A665C4F181F0C9700534E4C /* UIKit.framework */,
@@ -115,8 +130,12 @@
 				0A665C5A181F0C9700534E4C /* AppDelegate.h */,
 				0A665C5B181F0C9700534E4C /* AppDelegate.m */,
 				0A665C5D181F0C9700534E4C /* Main.storyboard */,
-				0A665C60181F0C9700534E4C /* ViewController.h */,
-				0A665C61181F0C9700534E4C /* ViewController.m */,
+				0A665C60181F0C9700534E4C /* MapViewController.h */,
+				0A665C61181F0C9700534E4C /* MapViewController.m */,
+				0A1444BE181F1E21005526E9 /* CircleOverlay.h */,
+				0A1444BF181F1E21005526E9 /* CircleOverlay.m */,
+				0A1444C0181F1E21005526E9 /* PointOverlay.h */,
+				0A1444C1181F1E21005526E9 /* PointOverlay.m */,
 				0A665C63181F0C9700534E4C /* Images.xcassets */,
 				0A665C52181F0C9700534E4C /* Supporting Files */,
 			);
@@ -249,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A665C62181F0C9700534E4C /* ViewController.m in Sources */,
+				0A665C62181F0C9700534E4C /* MapViewController.m in Sources */,
+				0A1444B7181F1595005526E9 /* MapPinAnnotation.m in Sources */,
+				0A1444C3181F1E21005526E9 /* PointOverlay.m in Sources */,
 				0A665C5C181F0C9700534E4C /* AppDelegate.m in Sources */,
 				0A665C58181F0C9700534E4C /* main.m in Sources */,
+				0A1444C2181F1E21005526E9 /* CircleOverlay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +482,7 @@
 				0A665C7C181F0C9700534E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A665C7D181F0C9700534E4C /* Build configuration list for PBXNativeTarget "TestLocationsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +491,7 @@
 				0A665C7F181F0C9700534E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
